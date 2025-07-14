@@ -3,6 +3,10 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# Dotnet secrets
+appsettings.Development.json
+*.secrets.json
+.env
 # dotenv files
 .env
 
@@ -81,6 +85,7 @@ StyleCopReport.xml
 *.ilk
 *.meta
 *.obj
+*.bin
 *.iobj
 *.pch
 *.pdb
@@ -482,3 +487,6 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
+
+# Git ignore files themselves (optional)
+.gitignore
