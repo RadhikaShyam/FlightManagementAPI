@@ -5,6 +5,7 @@
 
 # Dotnet secrets
 appsettings.Development.json
+appsettings.json
 *.secrets.json
 .env
 # dotenv files
